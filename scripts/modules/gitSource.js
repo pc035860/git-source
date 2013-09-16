@@ -140,7 +140,7 @@ function (_gitSourceData,   _openPlunker,   $q,   $log) {
             newPath += '/';
           }
 
-          $log.info(newPath);
+          scope.resultPath = newPath;
 
           scope.fileIndex = {};
           scope.model.currentFilename = null;
