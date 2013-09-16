@@ -5,3 +5,4 @@ dist
 app/bower_components
 .tern-port
 .DS_Store
+*.sublime-*

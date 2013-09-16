@@ -1,9 +1,0 @@
-{
-	"folders":
-	[
-		{
-			"path": "/Users/pc035860/git/git-source",
-      "folder_exclude_patterns": ["node_modules", ".tmp"]
-		}
-	]
-}
