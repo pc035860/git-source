@@ -1,0 +1,1603 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"specified",
+				"scope.specifiedFileContent"
+			],
+			[
+				"spc",
+				"scope.specifiedFileContent"
+			],
+			[
+				"pu",
+				"plunkData"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"ex",
+				"$scope.examinedAtFrom"
+			],
+			[
+				"exame",
+				"examinedAt"
+			],
+			[
+				"c",
+				"ctrlConfig (?)"
+			],
+			[
+				"sl",
+				"iAttrs.selectClass"
+			],
+			[
+				"exp",
+				"expectedProgress"
+			],
+			[
+				"exa",
+				"examination"
+			],
+			[
+				"class",
+				"classExpr (?)"
+			],
+			[
+				"cla",
+				"classExpr (?)"
+			],
+			[
+				"seconds",
+				"secondsPerDay"
+			],
+			[
+				"exam",
+				"examination"
+			],
+			[
+				"secon",
+				"secondsPerDay"
+			],
+			[
+				"se",
+				"$scope.secondsPerDay"
+			],
+			[
+				"_up",
+				"_updateDateOption (fn)"
+			],
+			[
+				"un",
+				"unconfiguredMinTime (num)"
+			],
+			[
+				"sub",
+				"subscription (?)"
+			],
+			[
+				"params",
+				"paramsCopy (?)"
+			],
+			[
+				"catalog",
+				"catalog_id"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"foun",
+				"foundOption (obj)"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"remove",
+				"_removeClass"
+			],
+			[
+				"_op",
+				"_optionIndex (num)"
+			],
+			[
+				"opti",
+				"optionObj (obj)"
+			],
+			[
+				"selec",
+				"selected.year"
+			],
+			[
+				"sele",
+				"scope.selected.month"
+			],
+			[
+				"sel",
+				"scope.selected.month"
+			],
+			[
+				"opt",
+				"_options"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"bgc",
+				"bgc	background-color: #${1:fff};"
+			],
+			[
+				"week",
+				"weekIndex (num)"
+			],
+			[
+				"time",
+				"timestamp (num)"
+			],
+			[
+				"wek",
+				"weekStartTimestamps ([])"
+			],
+			[
+				"api",
+				"apiSubscription (?)"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"_",
+				"_questions (?)"
+			],
+			[
+				"ses",
+				"sessionDiffWord (?)"
+			],
+			[
+				"di",
+				"displayAssetNo (?)"
+			],
+			[
+				"we",
+				"weekStartTimestamps ([])"
+			],
+			[
+				"dail",
+				"dailyrecord (?)"
+			],
+			[
+				"stu",
+				"studyHoursByWeek (?)"
+			],
+			[
+				"wee",
+				"weekStartTimestamps ([])"
+			],
+			[
+				"dai",
+				"dailyrecord (?)"
+			],
+			[
+				"_upd",
+				"_updatePrevNext (fn)"
+			],
+			[
+				"can",
+				"canPrev (?)"
+			],
+			[
+				"gen",
+				"genCellMapKey (fn)"
+			],
+			[
+				"cell",
+				"cellMap (obj)"
+			],
+			[
+				"daysIn",
+				"daysInThisMonth (num)"
+			],
+			[
+				"genCel",
+				"genCellMapKey (fn)"
+			],
+			[
+				"getTime",
+				"getTimezoneOffset (fn)"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"leave",
+				"leaveButtonTitle (?)"
+			],
+			[
+				"play",
+				"playLoadingAnim (?)"
+			],
+			[
+				"current",
+				"currentProgress (?)"
+			],
+			[
+				"cu",
+				"currentProgress (?)"
+			],
+			[
+				"q",
+				"qModalImage (?)"
+			],
+			[
+				"hide",
+				"hideShortcutsModal (?)"
+			],
+			[
+				"_curre",
+				"_currentInterval (fn)"
+			],
+			[
+				"_cu",
+				"_currentInterval (fn)"
+			],
+			[
+				"_cur",
+				"_currentInterval (?)"
+			],
+			[
+				"_current",
+				"_currentTimeout (?)"
+			],
+			[
+				"f",
+				"font"
+			],
+			[
+				"timeout",
+				"timeoutStopper (fn)"
+			],
+			[
+				"pro",
+				"progressCallback (?)"
+			],
+			[
+				"curre",
+				"currentQ (?)"
+			],
+			[
+				"curr",
+				"currentProgress (?)"
+			],
+			[
+				"_curr",
+				"_currentRecordStart (?)"
+			],
+			[
+				"_prepare",
+				"_prepareDrill (fn)"
+			],
+			[
+				"cur",
+				"currentRecord (obj)"
+			],
+			[
+				"tol",
+				"toLoadImageCount (num)"
+			],
+			[
+				"load",
+				"loadIndex (?)"
+			],
+			[
+				"audio",
+				"audio_is_loaded (?)"
+			],
+			[
+				"_que",
+				"_questionIndex (num)"
+			],
+			[
+				"_qu",
+				"_questionIndex (num)"
+			],
+			[
+				"subCube",
+				"subCubeSize (?)"
+			],
+			[
+				"radi",
+				"radiusRatio (num)"
+			],
+			[
+				"$root",
+				"$rootScope (?)"
+			],
+			[
+				"paceS",
+				"paceState (?)"
+			],
+			[
+				"pace",
+				"paceDescription (?)"
+			],
+			[
+				"seg",
+				"segments ([])"
+			],
+			[
+				"calcOP",
+				"calcOptimalRaw (fn)"
+			],
+			[
+				"calc",
+				"calcCurrentRaw (fn)"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"prepa",
+				"preparingOff (fn)"
+			],
+			[
+				"prepar",
+				"preparingOn (fn)"
+			],
+			[
+				"vid",
+				"videoUrlBase (?)"
+			],
+			[
+				"iE",
+				"iElementOnLoad (?)"
+			],
+			[
+				"callba",
+				"callbackTriggered (bool)"
+			],
+			[
+				"call",
+				"callbackTriggered (bool)"
+			],
+			[
+				"toL",
+				"toLoadAudioCount (num)"
+			],
+			[
+				"suppo",
+				"supportType (?)"
+			],
+			[
+				"ques",
+				"question_id"
+			],
+			[
+				"cata",
+				"catalogsDisplayed (?)"
+			],
+			[
+				"subs",
+				"subscriptionId"
+			],
+			[
+				"daily",
+				"dailyrecords (?)"
+			],
+			[
+				"_ptApi",
+				"_ptApiCache (?)"
+			],
+			[
+				"ptApi",
+				"ptApiCache (?)"
+			],
+			[
+				"$ca",
+				"angular: $cacheFactory"
+			],
+			[
+				"genOn",
+				"genOnEnded() -> fn)"
+			],
+			[
+				"genON",
+				"genOnPlay() -> fn)"
+			],
+			[
+				"outputC",
+				"outputCtx	(?)"
+			],
+			[
+				"buf",
+				"bufferCanvas	{}"
+			],
+			[
+				"buffer",
+				"bufferCtx	(?)"
+			],
+			[
+				"video",
+				"videoUrlBase"
+			],
+			[
+				"review",
+				"review_minutes_per_day"
+			],
+			[
+				"cdd",
+				"calcDisplayedExpectedProgress"
+			],
+			[
+				"_api",
+				"_apiSubscription"
+			],
+			[
+				"dis",
+				"displayedWeightedProgress"
+			],
+			[
+				"wei",
+				"weightedProgressPercentage"
+			],
+			[
+				"to",
+				"to_be_spent_seconds"
+			],
+			[
+				"fadeIN",
+				"fadeInRight"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"ani",
+				"animated"
+			],
+			[
+				"anima",
+				"animated"
+			],
+			[
+				"think",
+				"think-view"
+			],
+			[
+				"animat",
+				"animateIn"
+			],
+			[
+				"thin",
+				"think-view"
+			],
+			[
+				"anim",
+				"animateIn"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"_ti",
+				"_ticking"
+			],
+			[
+				"request",
+				"requestAnimFrame"
+			],
+			[
+				"imgSr",
+				"imgSrcList"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"disp",
+				"displayed_catalogs_count"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"pref",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"emmet",
+				"Emmet: Match Pair (outward)"
+			],
+			[
+				"ang",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"angular",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"angul",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"angu ind",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"angua",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"angularjs",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"anguar",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"pref user",
+				"Preferences: Settings - User"
+			],
+			[
+				"preferc",
+				"Preferences: Settings - Default"
+			],
+			[
+				"package pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"synta html",
+				"Set Syntax: HTML"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"syn javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sftp sync",
+				"SFTP: Sync Remote -> Local…"
+			],
+			[
+				"remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp re",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp remo",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"syntax sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"bower in",
+				"Bower: Install"
+			],
+			[
+				"markdown",
+				"Markdown Preview: preview in Browser"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pc035860/git/angular-highlightjs/git-source.sublime-project",
+		"/Users/pc035860/git/angular-highlightjs/package.json",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/styles/dark.css",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/styles/light.css",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/plunk-source-template.html",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/scripts/controllers.js",
+		"/Users/pc035860/git/angular-highlightjs/example/index.html",
+		"/Users/pc035860/git/angular-highlightjs/angular-highlightjs.js",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/scripts/modules/plunkSource.js",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/index.html",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/scripts/app.js",
+		"/Users/pc035860/git/angular-highlightjs/bower.json",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/partials/main.html",
+		"/Users/pc035860/git/angular-highlightjs/bower_components/angular-ui-router/release/angular-ui-router.js",
+		"/Users/pc035860/git/angular-highlightjs/.gitignore",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/plunkSource.js",
+		"/Users/pc035860/git/angular-highlightjs/plunk-source/app.js",
+		"/Users/pc035860/git/angular-highlightjs/angular-highlightjs.sublime-project",
+		"/Users/pc035860/git/ngSelect/example/lesshat.less",
+		"/Users/pc035860/git/ngSelect/bower.json",
+		"/Users/pc035860/git/ngSelect/package.json",
+		"/Users/pc035860/git/ngSelect/README.md",
+		"/Users/pc035860/git/ngSelect/example/partials/ng-select.html",
+		"/Users/pc035860/git/ngSelect/ngSelect.sublime-project",
+		"/Users/pc035860/git/ngSelect/ngSelect.sublime-workspace",
+		"/Users/pc035860/git/ngImg/ngImg.sublime-project",
+		"/Users/pc035860/git/ngImg/ngImg.sublime-workspace",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/delayed-style.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/ng-vendor-style.js",
+		"/Users/pc035860/parrottalks/application/views/home/catalogs.php",
+		"/Users/pc035860/parrottalks/application/views/home/payment-action.php",
+		"/Users/pc035860/parrottalks/application/models/service/base.php",
+		"/Users/pc035860/parrottalks/application/controllers/api.php",
+		"/Users/pc035860/parrottalks/application/models/service/subscription.php",
+		"/Users/pc035860/parrottalks/application/views/home/payment.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/catalogs.js",
+		"/Users/pc035860/parrottalks/application/views/home/new_prelude.php",
+		"/Users/pc035860/parrottalks/asset/less/utils.less",
+		"/Users/pc035860/parrottalks/public/js/utils.js",
+		"/Users/pc035860/parrottalks/application/views/home/new_shared.php",
+		"/Users/pc035860/parrottalks/application/controllers/base.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/pt-api.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/pt-progress.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/partials/subscription-progress.js",
+		"/Users/pc035860/parrottalks/application/controllers/home.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/modules/ngSelect.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/catalog.js",
+		"/Users/pc035860/parrottalks/application/views/home/catalog-action.php",
+		"/Users/pc035860/parrottalks/application/views/home/catalog.php",
+		"/Users/pc035860/parrottalks/asset/less/window/catalog.less",
+		"/Users/pc035860/parrottalks/application/views/layouts/base.php",
+		"/Users/pc035860/parrottalks/application/models/model/subscription.php",
+		"/Users/pc035860/parrottalks/application/models/model/dailyrecord.php",
+		"/Users/pc035860/parrottalks/application/models/model/payment.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/new.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/date-select.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/partials/attendancy-calendar.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/ng-select.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/main.js",
+		"/Users/pc035860/parrottalks/public/js/main.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/review.js",
+		"/Users/pc035860/parrottalks/webapp/views/partials/subscription-progress.html",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/new_prelude.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/pt-video.js",
+		"/Users/pc035860/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/pc035860/parrottalks/asset/less/responsive.less",
+		"/Users/pc035860/parrottalks/asset/less/variables.less",
+		"/Users/pc035860/parrottalks/asset/less/window/review.less",
+		"/Users/pc035860/parrottalks/webapp/Gruntfile.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/delayed-class.js",
+		"/Users/pc035860/parrottalks/asset/less/parrottalks.less",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/put-image.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/src-list.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/pt-lss.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/subscriptions.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/modules/vendors/ngMousetrap.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/mousetrap.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/modules/vendors/ngStorage.js",
+		"/Users/pc035860/parrottalks/asset/less/window.less",
+		"/Users/pc035860/parrottalks/asset/less/widgets.less",
+		"/Users/pc035860/parrottalks/application/views/home/review.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/simple-audio.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/load-images.js",
+		"/Users/pc035860/parrottalks/webapp/views/partials/question-header.html",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/pt-question-util.js",
+		"/Users/pc035860/parrottalks/asset/less/window/new.less",
+		"/Users/pc035860/parrottalks/application/views/home/new-action.php",
+		"/Users/pc035860/parrottalks/application/views/home/end.php",
+		"/Users/pc035860/parrottalks/application/views/home/new.php",
+		"/Users/pc035860/parrottalks/application/views/home/subscriptions-calendar.php",
+		"/Users/pc035860/parrottalks/webapp/views/partials/attendancy-calendar.html",
+		"/Users/pc035860/parrottalks/application/models/model/user.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/time-util.js",
+		"/Users/pc035860/parrottalks/asset/less/background.less",
+		"/Users/pc035860/parrottalks/asset/less/modal.less",
+		"/Users/pc035860/parrottalks/webapp/views/partials/question-body.html",
+		"/Users/pc035860/parrottalks/webapp/scripts/filters/as-minutes.js",
+		"/Users/pc035860/parrottalks/application/models/model/review.php",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/home/end.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/controllers/partials/new-shared-header.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/pt-pcubeset.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/window-shadow.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/filters/fixed-length.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/global.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/pt-pcube-generator.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/services/location-chg.js",
+		"/Users/pc035860/parrottalks/webapp/scripts/directives/pt-bmpanim.js",
+		"/Users/pc035860/parrottalks/jsdev/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/arrays.js",
+		"/Users/pc035860/parrottalks/application/views/home/subscriptions.php",
+		"/Users/pc035860/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/pc035860/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/pc035860/parrottalks/asset/less/window/new-shared.less",
+		"/Users/pc035860/parrottalks/application/views/partials/home/end.php",
+		"/Users/pc035860/parrottalks/application/views/partials/home/new_prelude.php",
+		"/Users/pc035860/parrottalks/webapp/views/partials/new-shared-header.html",
+		"/Users/pc035860/parrottalks/webapp/views/partials/home-new_prelude.html",
+		"/Users/pc035860/parrottalks/application/views/partials/catalog/icon.php",
+		"/Users/pc035860/parrottalks/asset/less/window/new-prelude.less",
+		"/Users/pc035860/parrottalks/asset/less/window/calendar.less",
+		"/Users/pc035860/parrottalks/asset/less/window/subscriptions.less",
+		"/Users/pc035860/parrottalks/public/js/learning-session-statistics.js",
+		"/Users/pc035860/parrottalks/webapp/views/attendancy-calendar.html",
+		"/Users/pc035860/parrottalks/application/views/partials/main/facebook.php",
+		"/Users/pc035860/parrottalks/public/image/02.png",
+		"/Users/pc035860/parrottalks/webapp/scripts/dev.js",
+		"/Users/pc035860/parrottalks/application/views/home/assessment.php",
+		"/Users/pc035860/parrottalks/application/views/home/review.bak.php",
+		"/Users/pc035860/parrottalks/public/js/pcube-generator.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.php",
+			"*.js",
+			"",
+			"/Users/pc035860/parrottalks/asset/less",
+			"",
+			"/Users/pc035860/parrottalks/application/views",
+			"",
+			"/Users/pc035860/parrottalks/asset/less",
+			"",
+			"/Users/pc035860/parrottalks/asset/less",
+			"",
+			"/Users/pc035860/parrottalks/asset/less",
+			"less",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"var ",
+			"var key",
+			"$cacheFactory",
+			"oldId",
+			"newId",
+			"plunkId",
+			"\n      ",
+			"newVal",
+			"object2",
+			"main",
+			"RouterProvider",
+			"plunk",
+			"$stateParams",
+			"ui.compat",
+			"ui.state",
+			"ui.router",
+			"ui.util",
+			"$routeParams",
+			"$routeProvider",
+			"jquery",
+			"ang",
+			"field",
+			"data",
+			"formPostData",
+			"openPlunker",
+			"_openPlunker",
+			"angularjs",
+			"v.",
+			"file",
+			"name",
+			"file",
+			"filename",
+			"fileData",
+			"files",
+			"plunkData",
+			"min",
+			"prefx",
+			"obj",
+			"$timeout",
+			"prop",
+			"delayedStyle",
+			"$timeout",
+			"dim",
+			"outerDiameter",
+			"dim",
+			"DateTime",
+			"目前課程實力",
+			"examination",
+			"console.log",
+			"_isConfigured",
+			"d",
+			"overrides",
+			"_p",
+			"_",
+			"switch",
+			" ng-animate=\"{show: 'animated bounceIn'}\"",
+			"expected_level",
+			"estimate",
+			"angular.isDefined(newVal)",
+			"secondsPerDay",
+			"newVal",
+			"!angular.equals(newVal, oldVal)",
+			"equals",
+			"secondsPerDay",
+			"$selected",
+			"console.log",
+			"ctrlConfig",
+			"ctrl.render",
+			"broadcast",
+			"broadcase",
+			"$parse",
+			"init(",
+			"ng-select",
+			"ng-select-",
+			"scope.",
+			"_isDisabled",
+			"_Disabled",
+			"disabled",
+			"ng-show",
+			"margin-top",
+			"30px",
+			"locationChg",
+			"data",
+			"requestAsPromise",
+			"overrides",
+			"apiSubscription",
+			"bounce",
+			"28px",
+			"expectedProgress",
+			"function (\\w+) \\(",
+			"override",
+			"args",
+			"expected_level",
+			"seconds_per_day",
+			"secondsPerDay",
+			"seconds_per_day",
+			"(\\w+): \"@\"",
+			"save",
+			"die",
+			"mode-",
+			"mode",
+			"unselect",
+			"s",
+			"_updateDateOption",
+			"_updateMonthOption",
+			"updateM",
+			"console.log",
+			"_updateDateOption",
+			"_fromSelection",
+			"console.log",
+			"console",
+			"cropped",
+			"super+g",
+			"super+d",
+			"cropped",
+			"_selectWithTimestamp",
+			"console.log",
+			"scope.model = (cropped.getTime() / 1000)",
+			" (",
+			"default",
+			"examinedAt",
+			"$scope.examinedAt",
+			"now + ptConst.MIN_EXAM_DAY_DIFF * 86400",
+			"MIN_EXAM_DAY_DIFF",
+			"min",
+			", ",
+			"||",
+			"==="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"function \\1(",
+			"\\1: \"@\\1\"",
+			"ptLSS",
+			"function \\1",
+			"SimpleAudio",
+			"pt-video",
+			"isStarted",
+			"_keys.\\1",
+			"Minutes",
+			"minutes",
+			"&.",
+			".no-base",
+			"	",
+			"Y",
+			"y",
+			"$controls.examinedAt",
+			"a class=\"\\1\">\\2</a",
+			"",
+			"\npath",
+			" ",
+			"  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 263.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"controler",
+				"plunk-source/scripts/controllers.js"
+			],
+			[
+				"plunksourceapp",
+				"plunk-source/scripts/app.js"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"bower.json",
+				"bower.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"exampleindex",
+				"example/index.html"
+			],
+			[
+				"angular",
+				"angular-highlightjs.js"
+			],
+			[
+				"darkcss",
+				"plunk-source/styles/dark.css"
+			],
+			[
+				"psstyles",
+				"plunk-source/styles/light.css"
+			],
+			[
+				"plunks",
+				"plunk-source/plunk-source-template.html"
+			],
+			[
+				"main",
+				"plunk-source/partials/main.html"
+			],
+			[
+				"plunksourc",
+				"plunk-source/scripts/modules/plunkSource.js"
+			],
+			[
+				"uirouter",
+				"bower_components/angular-ui-router/release/angular-ui-router.js"
+			],
+			[
+				"main.html",
+				"plunk-source/partials/main.html"
+			],
+			[
+				"plukindex",
+				"plunk-source/index.html"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"exampleind",
+				"example/index.html"
+			],
+			[
+				"example",
+				"example/lesshat.less"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"exngsele",
+				"example/partials/ng-select.html"
+			],
+			[
+				"paymentless",
+				"asset/less/window/payment.less"
+			],
+			[
+				"catalogjs",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"subprojs",
+				"webapp/scripts/controllers/partials/subscription-progress.js"
+			],
+			[
+				"delastyle",
+				"webapp/scripts/directives/delayed-style.js"
+			],
+			[
+				"delaystyle",
+				"webapp/scripts/directives/delayed-style.js"
+			],
+			[
+				"servicbase",
+				"application/models/service/base.php"
+			],
+			[
+				"servicesubsc",
+				"application/models/service/subscription.php"
+			],
+			[
+				"api",
+				"application/controllers/api.php"
+			],
+			[
+				"viewpayment",
+				"application/views/home/payment.php"
+			],
+			[
+				"viewcatalogs",
+				"application/views/home/catalogs.php"
+			],
+			[
+				"catalogs.",
+				"webapp/scripts/controllers/home/catalogs.js"
+			],
+			[
+				"utilsless",
+				"asset/less/utils.less"
+			],
+			[
+				"utils.",
+				"public/js/utils.js"
+			],
+			[
+				"windowprog",
+				"asset/less/window/progress.less"
+			],
+			[
+				"newprelude",
+				"application/views/home/new_prelude.php"
+			],
+			[
+				"newshared",
+				"application/views/home/new_shared.php"
+			],
+			[
+				"new_prelude",
+				"application/views/home/new_prelude.php"
+			],
+			[
+				"subprog",
+				"webapp/views/partials/subscription-progress.html"
+			],
+			[
+				"catalog.js",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"layoutbase",
+				"application/views/layouts/base.php"
+			],
+			[
+				"cataljs",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"ngselect",
+				"webapp/scripts/modules/ngSelect.js"
+			],
+			[
+				"controlhome",
+				"application/controllers/home.php"
+			],
+			[
+				"catljs",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"catalgjs",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"modelsub",
+				"application/models/model/subscription.php"
+			],
+			[
+				"servsub",
+				"application/models/service/subscription.php"
+			],
+			[
+				"modelpayment",
+				"application/models/model/payment.php"
+			],
+			[
+				"catalog",
+				"application/views/home/catalog.php"
+			],
+			[
+				"ngsele",
+				"webapp/scripts/modules/ngSelect.js"
+			],
+			[
+				"webapmain",
+				"webapp/scripts/main.js"
+			],
+			[
+				"main.js",
+				"public/js/main.js"
+			],
+			[
+				"delayd",
+				"webapp/scripts/directives/delayed-style.js"
+			],
+			[
+				"homecatalog",
+				"application/views/home/catalog.php"
+			],
+			[
+				"utils",
+				"asset/less/utils.less"
+			],
+			[
+				"catalojs",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"conthome",
+				"application/controllers/home.php"
+			],
+			[
+				"contbase",
+				"application/controllers/base.php"
+			],
+			[
+				"ng-select",
+				"webapp/scripts/directives/ng-select.js"
+			],
+			[
+				"",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"ng-select.js",
+				"webapp/scripts/directives/ng-select.js"
+			],
+			[
+				"catajs",
+				"webapp/scripts/controllers/home/catalog.js"
+			],
+			[
+				"new",
+				"webapp/scripts/controllers/home/new.js"
+			],
+			[
+				"newjs",
+				"webapp/scripts/controllers/home/new.js"
+			],
+			[
+				"review.js",
+				"webapp/scripts/controllers/home/review.js"
+			],
+			[
+				"ptapi",
+				"webapp/scripts/services/pt-api.js"
+			],
+			[
+				"utils.less",
+				"asset/less/utils.less"
+			],
+			[
+				"viewcatalog",
+				"application/views/home/catalog.php"
+			],
+			[
+				"utiless",
+				"asset/less/utils.less"
+			],
+			[
+				"utilless",
+				"asset/less/utils.less"
+			],
+			[
+				"catalogsjs",
+				"webapp/scripts/controllers/home/catalogs.js"
+			],
+			[
+				"ptpro",
+				"webapp/scripts/services/pt-progress.js"
+			],
+			[
+				"partprogres",
+				"webapp/views/partials/subscription-progress.html"
+			],
+			[
+				"ptprogre",
+				"webapp/scripts/services/pt-progress.js"
+			],
+			[
+				"dateselect",
+				"webapp/scripts/directives/date-select.js"
+			],
+			[
+				"pt-api",
+				"webapp/scripts/services/pt-api.js"
+			],
+			[
+				"modeldai",
+				"application/models/model/dailyrecord.php"
+			],
+			[
+				"modeldaily",
+				"application/models/model/dailyrecord.php"
+			],
+			[
+				"controllbase",
+				"application/controllers/base.php"
+			],
+			[
+				"attend",
+				"webapp/scripts/controllers/partials/attendancy-calendar.js"
+			],
+			[
+				"ptapi.js",
+				"webapp/scripts/services/pt-api.js"
+			],
+			[
+				"ptvide",
+				"webapp/scripts/directives/pt-video.js"
+			],
+			[
+				"datesele",
+				"webapp/scripts/directives/date-select.js"
+			],
+			[
+				"ng-sel",
+				"webapp/scripts/directives/ng-select.js"
+			],
+			[
+				"viewbase.php",
+				"application/views/layouts/base.php"
+			],
+			[
+				"grunt",
+				"webapp/Gruntfile.js"
+			],
+			[
+				"attjs",
+				"webapp/scripts/controllers/partials/attendancy-calendar.js"
+			],
+			[
+				"atten",
+				"webapp/scripts/controllers/partials/attendancy-calendar.js"
+			],
+			[
+				"new.js",
+				"webapp/scripts/controllers/home/new_prelude.js"
+			],
+			[
+				"controller",
+				"application/controllers/home.php"
+			],
+			[
+				"delay",
+				"webapp/scripts/directives/delayed-class.js"
+			],
+			[
+				"ptv",
+				"webapp/scripts/directives/pt-video.js"
+			],
+			[
+				"ptve",
+				"webapp/scripts/directives/pt-video.js"
+			],
+			[
+				"catalogaction",
+				"application/views/home/catalog-action.php"
+			],
+			[
+				"parrotless",
+				"asset/less/parrottalks.less"
+			],
+			[
+				"srclist",
+				"webapp/scripts/directives/src-list.js"
+			],
+			[
+				"attendjs",
+				"webapp/scripts/controllers/partials/attendancy-calendar.js"
+			],
+			[
+				"reviewless",
+				"asset/less/window/review.less"
+			],
+			[
+				"ptprog",
+				"webapp/scripts/services/pt-progress.js"
+			],
+			[
+				"var",
+				"asset/less/variables.less"
+			],
+			[
+				"responsive",
+				"asset/less/responsive.less"
+			],
+			[
+				"catalogless",
+				"asset/less/window/catalog.less"
+			],
+			[
+				"viewcatalog.php",
+				"application/views/home/catalog.php"
+			],
+			[
+				"ptlss",
+				"webapp/scripts/services/pt-lss.js"
+			],
+			[
+				"modeldail",
+				"application/models/model/dailyrecord.php"
+			],
+			[
+				"mousetrap",
+				"webapp/scripts/modules/vendors/ngMousetrap.js"
+			],
+			[
+				"revew.js",
+				"webapp/scripts/controllers/home/review.js"
+			],
+			[
+				"ngmou",
+				"webapp/scripts/modules/vendors/ngMousetrap.js"
+			],
+			[
+				"webappmainjs",
+				"webapp/scripts/main.js"
+			],
+			[
+				"controllerbase",
+				"application/controllers/base.php"
+			],
+			[
+				"ngstor",
+				"webapp/scripts/modules/vendors/ngStorage.js"
+			],
+			[
+				"revew.php",
+				"application/views/home/review.php"
+			],
+			[
+				"controlh",
+				"application/controllers/home.php"
+			],
+			[
+				"control",
+				"application/controllers/home.php"
+			],
+			[
+				"laybase",
+				"application/views/layouts/base.php"
+			],
+			[
+				"daily",
+				"application/models/model/dailyrecord.php"
+			],
+			[
+				"atth",
+				"webapp/views/partials/attendancy-calendar.html"
+			],
+			[
+				"attcal",
+				"webapp/scripts/controllers/partials/attendancy-calendar.js"
+			],
+			[
+				"attehtml",
+				"webapp/views/partials/attendancy-calendar.html"
+			],
+			[
+				"attcaljs",
+				"webapp/scripts/controllers/partials/attendancy-calendar.js"
+			],
+			[
+				"timeutl",
+				"webapp/scripts/services/time-util.js"
+			],
+			[
+				"dailyrecrd",
+				"application/models/model/dailyrecord.php"
+			],
+			[
+				"modeluser",
+				"application/models/model/user.php"
+			],
+			[
+				"timeut",
+				"webapp/scripts/services/time-util.js"
+			],
+			[
+				"dailyrec",
+				"application/models/model/dailyrecord.php"
+			],
+			[
+				"timeutil",
+				"webapp/scripts/services/time-util.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"protoyp",
+				"/Users/pc035860/parrottalks_note/prototype.sublime-project"
+			],
+			[
+				"",
+				"/Users/pc035860/git/ngSelect/ngSelect.sublime-project"
+			],
+			[
+				"ngsele",
+				"/Users/pc035860/git/ngSelect/ngSelect.sublime-project"
+			],
+			[
+				"ngselec",
+				"/Users/pc035860/git/ngSelect/ngSelect.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true
+}

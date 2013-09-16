@@ -1,0 +1,8 @@
+{
+  "name": "git-source example",
+  "description": "git-source example",
+  "tags": ["angularjs"],
+  "files": [
+    "index.html", "app.js", "style.css"
+  ]
+}
