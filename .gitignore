@@ -4,3 +4,4 @@ dist
 .sass-cache
 app/bower_components
 .tern-port
+.DS_Store
