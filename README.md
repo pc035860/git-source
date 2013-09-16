@@ -1,4 +1,3 @@
-GS
-==
+# git-source
 
-GS is the abbreviation of "Git Source".
+git-source shows off your github sources.
