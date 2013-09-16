@@ -43,7 +43,7 @@ angular.module('GSApp', ['gitSource', 'ui.router'])
   function ($stateProvider,   $urlRouterProvider) {
 
 
-    $urlRouterProvider.otherwise('/example');
+    $urlRouterProvider.otherwise('/git-source/example');
 
     $stateProvider
       .state('main', {
