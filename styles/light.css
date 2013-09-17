@@ -52,7 +52,10 @@ body {
 }
 
 .action-buttons > a {
-  margin-left: 2px;
+  position: relative;
+  top: 2px;
+
+  margin-right: 2px;
 }
 
 .result-content {
