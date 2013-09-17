@@ -47,7 +47,7 @@ angular.module('GSApp', ['gitSource', 'ui.router'])
 
     $stateProvider
       .state('main', {
-        url: '/*sourcePath?theme&fontsize&file&line&result'
+        url: '/*sourcePath?theme&fontsize&file&line&result&autogrow'
       });
 
   }]);
