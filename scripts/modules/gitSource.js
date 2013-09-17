@@ -93,16 +93,31 @@ angular.module('gitSource', ['ngSelect', 'hljs'])
   };
 }])
 
+.factory('_sendAutogrowMsg', [
+         '$window', '$location', '$document', '$log',
+function ($window,   $location,   $document,   $log) {
+
+  return function (autogrowId) {
+    var msg = {
+      id: autogrowId,
+      height: $document.find('code')[0].scrollHeight
+    };
+
+    $window.parent.postMessage(JSON.stringify(msg), '*');
+  };
+
+}])
+
 .directive('gitSource', [
-         '_gitSourceData', '_openPlunker', '$q', '$log',
-function (_gitSourceData,   _openPlunker,   $q,   $log) {
+         '_gitSourceData', '_openPlunker', '$q', '$log', '_sendAutogrowMsg',
+function (_gitSourceData,   _openPlunker,   $q,   $log,   _sendAutogrowMsg) {
   return {
     restrict: 'EA',
     scope: {
       sourcePath: "@gitSource",
       config: "=gitSourceOptions"
     },
-    templateUrl: 'views/git-source-template.html',
+    templateUrl: 'git-source-template.html',
     link: function(scope, iElm, iAttrs) {
       var _sourceData = null,
           _config = null,
@@ -125,6 +140,10 @@ function (_gitSourceData,   _openPlunker,   $q,   $log) {
         _highlighted = true;
 
         _digestConfig(_config);
+
+        if (_config.autogrow) {
+          _sendAutogrowMsg(_config.autogrow);
+        }
       };
 
       scope.$watch('sourcePath', function (newPath, oldPath) {
