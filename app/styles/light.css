@@ -1,9 +1,4 @@
 /*shared part start*/
-body {
-  padding: 0 !important;
-  background-color: transparent;
-}
-
 .tab-container {
 
 }
@@ -17,7 +12,6 @@ body {
 .tab-container pre code {
   position: absolute;
   top: 42px;
-  /*bottom: 0;*/
   left: 0;
   right: 0;
 
@@ -26,23 +20,14 @@ body {
   min-height: 258px;
 }
 
+.tab-container.non-autogrow pre code {
+  bottom: 0;
+  overflow: auto;
+  min-height: 0;
+}
+
 .file-specified .tab-container pre code {
   top: 0 !important;
-}
-
-.nav-container {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0; right: 0;
-}
-
-.nav-tabs {
-  margin-bottom: 0;
-}
-
-.nav-tabs>li {
-  margin-bottom: -4px !important;
 }
 
 .action-buttons {
@@ -51,7 +36,6 @@ body {
   top: 0;
   right: 0;
 }
-
 .action-buttons > a {
   position: relative;
   top: 2px;
@@ -62,21 +46,41 @@ body {
 .result-content {
   position: absolute;
   top: 42px;
-  bottom: 0;
   left: 0;
   right: 0;
 }
 .result-content > iframe {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
 
+  overflow: hidden;
+  min-height: 258px;
+}
+.non-autogrow .result-content {
+  bottom: 0;
+}
+.non-autogrow .result-content > iframe {
+  bottom: 0;
   overflow: auto;
+  min-height: 0;
 }
 /*shared part end*/
 
+body {
+  padding: 0 !important;
+  background-color: transparent;
+}
+
 .nav-container {
   box-shadow: 0 1px 5px rgba(0,0,0,.1);
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
+
+.nav-tabs>li {
+  margin-bottom: -4px !important;
 }
