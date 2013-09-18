@@ -28,6 +28,7 @@
 
 .file-specified .tab-container pre code {
   top: 0 !important;
+  min-height: 0;
 }
 
 .action-buttons {
