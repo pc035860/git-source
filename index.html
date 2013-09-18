@@ -75,7 +75,7 @@
             <a href="" class="btn btn-success edit-on-plunker pull-right" target="_blank" ng-click="editOnPlunker()">&nbsp; Edit &nbsp;</a>
             <a href="" class="btn btn-primary view-result pull-right"
                ng-if="config.result"
-               ng-select-option="?RESULT?">Result</a>
+               ng-select-option="{{ RESULT_FILE_NAME }}">Result</a>
           </div>
           <ul class="nav nav-tabs">
             <li ng-repeat="file in files"
@@ -85,7 +85,7 @@
             </li>
           </ul>
         </div>
-        <div class="tab-container">
+        <div class="tab-container" ng-class="{'non-autogrow': !config.autogrow}">
           <div ng-if="model.specifiedFileContent">
             <div hljs
                  source="model.specifiedFileContent"
@@ -98,9 +98,9 @@
                    source="file.content"
                    onhighlight="onHighlight()"></div>
             </div>
-            <div class="result-content" ng-show="'?RESULT?' == model.currentFilename">
+            <div class="result-content" ng-show="RESULT_FILE_NAME == model.currentFilename">
               <iframe frameborder="0" width="100%" height="100%"
-                      ng-if="'?RESULT?' == model.currentFilename" ng-src="{{ resultPath }}"></iframe>
+                      ng-if="RESULT_FILE_NAME == model.currentFilename" ng-src="{{ resultPath }}"></iframe>
             </div>
           </div>
         </div>

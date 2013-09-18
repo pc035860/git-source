@@ -2,6 +2,37 @@
 /*global angular*/
 angular.module('gitSource', ['ngSelect', 'hljs'])
 
+.factory('$interval', ['$timeout', function ($timeout) {
+  /**
+   * setInterval implementation with $timeout
+   * @param  {function} intCallback called by every ms
+   * @param  {number}   ms          interval ms
+   * @return {function}             interval stopper
+   */
+  return function $interval (intCallback, ms) {
+    var itrIndex = 0,
+        timeoutPromise,
+        stopFlag = false,
+        loop = function () {
+          timeoutPromise = $timeout(function () {
+            if (angular.isFunction(intCallback)) {
+              intCallback(itrIndex++);
+            }
+            if (!stopFlag) {
+              loop();
+            }
+          }, ms);
+        };
+
+    loop();
+
+    return function () {
+      stopFlag = true;
+      return $timeout.cancel(timeoutPromise);
+    };
+  };
+}])
+
 .factory('_gitSourceData', ['$http', '$q', '$log', function($http, $q, $log) {
   var SOURCE_CONFIG_NAME = 'git-source.json';
 
@@ -94,24 +125,58 @@ angular.module('gitSource', ['ngSelect', 'hljs'])
 }])
 
 .factory('_sendAutogrowMsg', [
-         '$window', '$location', '$document', '$log',
-function ($window,   $location,   $document,   $log) {
+         '$window', '$location', '$document', '$log', '$interval',
+function ($window,   $location,   $document,   $log,   $interval) {
+
+  var MSG_INTERVAL = 100,
+      REPEAT_THRESHOLD = 10;
 
   return function (autogrowId) {
-    var codeElm = $document.find('code')[0],
-        msg = {
-          id: autogrowId,
-          height: codeElm.scrollHeight + codeElm.offsetTop
+    var _repeatCounter = 0,
+        _lastValue = null,
+        _stop,
+        func = function () {
+
+          var resultElm = $document.find('iframe')[0],
+              codeElm = $document.find('code')[0],
+              target = codeElm || resultElm,
+              msg = {
+                id: autogrowId,
+                height: target.scrollHeight + (target.offsetTop || target.parentElement.offsetTop)
+              },
+              msgStr = JSON.stringify(msg);
+
+          if (msg.height === 0) {
+            return;
+          }
+
+          if (msgStr === _lastValue) {
+            _repeatCounter++;
+
+            if (_repeatCounter >= REPEAT_THRESHOLD) {
+              _stop();
+              return;
+            }
+          }
+          else {
+            _repeatCounter = 0;
+            _lastValue = msgStr;
+          }
+
+          $window.parent.postMessage(msgStr, '*');
+
         };
 
-    $window.parent.postMessage(JSON.stringify(msg), '*');
+    _stop = $interval(func, MSG_INTERVAL);
+
+    func();
   };
 
 }])
 
 .directive('gitSource', [
-         '_gitSourceData', '_openPlunker', '$q', '$log', '_sendAutogrowMsg',
-function (_gitSourceData,   _openPlunker,   $q,   $log,   _sendAutogrowMsg) {
+         '_gitSourceData', '_openPlunker', '$q', '$log', '_sendAutogrowMsg', '$timeout',
+function (_gitSourceData,   _openPlunker,   $q,   $log,   _sendAutogrowMsg,   $timeout) {
   return {
     restrict: 'EA',
     scope: {
@@ -120,10 +185,14 @@ function (_gitSourceData,   _openPlunker,   $q,   $log,   _sendAutogrowMsg) {
     },
     templateUrl: 'git-source-template.html',
     link: function(scope, iElm, iAttrs) {
+      var RESULT_FILE_NAME = '?RESULT?';
+
       var _sourceData = null,
           _config = null,
           // first highlight flag
           _highlighted = false;
+
+      scope.RESULT_FILE_NAME = RESULT_FILE_NAME;
 
       scope.fileIndex = null;
       scope.files = [];
@@ -146,6 +215,14 @@ function (_gitSourceData,   _openPlunker,   $q,   $log,   _sendAutogrowMsg) {
           _sendAutogrowMsg(_config.autogrow);
         }
       };
+
+      scope.$watch('model.currentFilename', function (name) {
+        if (name == RESULT_FILE_NAME && _config.autogrow) {
+          $timeout(function () {
+            _sendAutogrowMsg(_config.autogrow);
+          });
+        }
+      }, true);
 
       scope.$watch('sourcePath', function (newPath, oldPath) {
         if (angular.isString(newPath) && newPath) {
