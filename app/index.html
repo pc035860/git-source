@@ -11,11 +11,14 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="bower_components/bootstrap-sass/dist/css/bootstrap.min.css">
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/dark.css">
+        <link rel="stylesheet" href="styles/light.css">
         <!-- endbuild -->
 </head>
-  <body ng-controller="MainCtrl">
+  <body ng-controller="MainCtrl" ng-class="containerTheme + '-theme'">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -26,9 +29,6 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <link rel="stylesheet" type="text/css"
-          ng-if="containerTheme"
-          ng-href="styles/{{ containerTheme }}.css">
 
     <link rel="stylesheet" type="text/css"
           ng-if="highlightTheme"

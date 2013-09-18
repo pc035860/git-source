@@ -206,11 +206,21 @@ module.exports = function (grunt) {
       // By default, your `index.html` <!-- Usemin Block --> will take care of
       // minification. This option is pre-configured if you do not wish to use
       // Usemin blocks.
+      dist: {
+        files: {
+          '<%= yeoman.dist %>/styles/main.css': [
+            '.tmp/styles/{,*/}*.css',
+            '<%= yeoman.app %>/styles/{,*/}*.css'
+          ]
+        }
+      }
       // dist: {
       //   files: {
-      //     '<%= yeoman.dist %>/styles/main.css': [
-      //       '.tmp/styles/{,*/}*.css',
-      //       '<%= yeoman.app %>/styles/{,*/}*.css'
+      //     '<%= yeoman.dist %>/styles/dark.css': [
+      //       '<%= yeoman.app %>/styles/dark.css'
+      //     ],
+      //     '<%= yeoman.dist %>/styles/light.css': [
+      //       '<%= yeoman.app %>/styles/light.css'
       //     ]
       //   }
       // }
@@ -246,8 +256,9 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>',
           src: [
             '*.{ico,png,txt}',
-            '.htaccess',
+            // '.htaccess',
             'bower_components/**/*',
+            'example/**/*',
             'images/{,*/}*.{gif,webp}',
             'styles/fonts/*'
           ]
@@ -258,6 +269,15 @@ module.exports = function (grunt) {
           src: [
             'generated/*'
           ]
+        }, {
+          /**
+           * Copying lastest highlight.js styles,
+           * since the one in bower package is out of date.
+           */
+          expand: true,
+          cwd: '<%= yeoman.app %>/lastest_highlightjs_styles',
+          dest: '<%= yeoman.dist %>/bower_components/highlightjs/styles',
+          src: ['*']
         }]
       },
       styles: {

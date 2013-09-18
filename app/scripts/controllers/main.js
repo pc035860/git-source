@@ -15,8 +15,6 @@ angular.module('gitSourceApp')
     $scope.$stateParams = $stateParams;
     $scope.$watch('$stateParams', function (params) {
 
-      $log.info(params);
-
       if (!_isEmptyObj(params)) {
         $scope.sourcePath = $stateParams.sourcePath;
 
