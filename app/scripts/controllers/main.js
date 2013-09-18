@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('GSApp')
+angular.module('gitSourceApp')
   .controller('MainCtrl', [
           '$scope', '$stateParams', '$state', 'gsConst', '$log',
   function($scope,   $stateParams,   $state,   gsConst,   $log) {
