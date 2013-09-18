@@ -259,6 +259,7 @@ module.exports = function (grunt) {
             // '.htaccess',
             'bower_components/**/*',
             'example/**/*',
+            'plugin/**/*',
             'images/{,*/}*.{gif,webp}',
             'styles/fonts/*'
           ]
@@ -330,6 +331,9 @@ module.exports = function (grunt) {
         files: {
           '<%= yeoman.dist %>/scripts/scripts.js': [
             '<%= yeoman.dist %>/scripts/scripts.js'
+          ],
+          '<%= yeoman.dist %>/plugin/git-source.autogrow.js': [
+            '<%= yeoman.dist %>/plugin/git-source.autogrow.js'
           ]
         }
       }
