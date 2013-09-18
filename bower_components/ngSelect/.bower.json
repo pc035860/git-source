@@ -23,6 +23,5 @@
   },
   "_source": "git://github.com/pc035860/ngSelect.git",
   "_target": "~0.1.0",
-  "_originalSource": "ngSelect",
-  "_direct": true
+  "_originalSource": "ngSelect"
 }
