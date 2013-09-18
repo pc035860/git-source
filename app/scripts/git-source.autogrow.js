@@ -8,7 +8,7 @@
 
       for (i = 0; i < l; i++) {
         if (iframes[i].src.indexOf('autogrow=' + msg.id) > 0) {
-          iframes[i].height = msg.height;
+          iframes[i].style.height = msg.height + 'px';
           return;
         }
       }

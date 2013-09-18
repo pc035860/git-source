@@ -17,12 +17,13 @@ body {
 .tab-container pre code {
   position: absolute;
   top: 42px;
-  bottom: 0;
+  /*bottom: 0;*/
   left: 0;
   right: 0;
 
-  overflow: auto;
+  overflow: hidden;
   font-size: 100%;
+  min-height: 258px;
 }
 
 .file-specified .tab-container pre code {
