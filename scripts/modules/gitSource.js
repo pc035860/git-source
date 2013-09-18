@@ -98,10 +98,11 @@ angular.module('gitSource', ['ngSelect', 'hljs'])
 function ($window,   $location,   $document,   $log) {
 
   return function (autogrowId) {
-    var msg = {
-      id: autogrowId,
-      height: $document.find('code')[0].scrollHeight
-    };
+    var codeElm = $document.find('code')[0],
+        msg = {
+          id: autogrowId,
+          height: codeElm.scrollHeight + codeElm.offsetTop
+        };
 
     $window.parent.postMessage(JSON.stringify(msg), '*');
   };
