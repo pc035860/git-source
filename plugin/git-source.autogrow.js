@@ -1,0 +1,1 @@
+!function(a,b){b.addEventListener("DOMContentLoaded",function(){var c=b.getElementsByTagName("iframe");a.addEventListener("message",function(a){var b,d=JSON.parse(a.data),e=c.length;for(b=0;e>b;b++)if(c[b].src.indexOf("autogrow="+d.id)>0)return c[b].style.height=d.height+"px",void 0})},!1)}(window,document);
