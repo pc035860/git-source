@@ -14,7 +14,7 @@ angular.module('gitSourceApp')
       (_stop || angular.noop)();
 
       var _repeatCounter = 0,
-          _lastValue = -1,
+          _lastHeight = -1,
           func = function () {
 
             var resultElm = $document.find('iframe')[0],
@@ -23,14 +23,13 @@ angular.module('gitSourceApp')
                 msg = {
                   id: autogrowId,
                   height: target.scrollHeight + (target.offsetTop || target.parentElement.offsetTop)
-                },
-                msgStr = JSON.stringify(msg);
+                };
 
             if (msg.height === 0) {
               return;
             }
 
-            if (msgStr === _lastValue) {
+            if (msg.height === _lastHeight) {
               _repeatCounter++;
 
               if (_repeatCounter >= REPEAT_THRESHOLD) {
@@ -38,12 +37,12 @@ angular.module('gitSourceApp')
                 return;
               }
             }
-            else if (msgStr > _lastValue) {
+            else if (msg.height > _lastHeight) {
               _repeatCounter = 0;
-              _lastValue = msgStr;
+              _lastHeight = msg.height;
             }
 
-            $window.parent.postMessage(msgStr, '*');
+            $window.parent.postMessage(JSON.stringify(msg), '*');
 
           };
 
