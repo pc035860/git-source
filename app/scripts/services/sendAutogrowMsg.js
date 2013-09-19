@@ -8,10 +8,13 @@ angular.module('gitSourceApp')
     var MSG_INTERVAL = 100,
         REPEAT_THRESHOLD = 10;
 
+    var _stop;
+
     return function (autogrowId) {
+      (_stop || angular.noop)();
+
       var _repeatCounter = 0,
-          _lastValue = null,
-          _stop,
+          _lastValue = -1,
           func = function () {
 
             var resultElm = $document.find('iframe')[0],
@@ -35,7 +38,7 @@ angular.module('gitSourceApp')
                 return;
               }
             }
-            else {
+            else if (msgStr > _lastValue) {
               _repeatCounter = 0;
               _lastValue = msgStr;
             }
