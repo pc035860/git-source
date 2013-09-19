@@ -30,6 +30,7 @@ angular.module('gitSourceApp')
             }
 
             if (msg.height === _lastHeight) {
+              $log.debug('counter add', autogrowId, _repeatCounter, msg.height);
               _repeatCounter++;
 
               if (_repeatCounter >= REPEAT_THRESHOLD) {
@@ -38,8 +39,11 @@ angular.module('gitSourceApp')
               }
             }
             else if (msg.height > _lastHeight) {
+              $log.debug('repeat counter renewal', autogrowId, msg.height, '>', _lastHeight);
+
               _repeatCounter = 0;
               _lastHeight = msg.height;
+
             }
 
             $window.parent.postMessage(JSON.stringify(msg), '*');
