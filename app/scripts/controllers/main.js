@@ -32,25 +32,4 @@ angular.module('gitSourceApp')
       }
 
     }, true);
-
-    function _parseOptions(locationHash) {
-      var c = 0,
-          keyBuf = null,
-          output = {};
-      angular.forEach(locationHash.split(/\//), function (piece) {
-        if (piece != '') {
-          if (c % 2 === 0) {
-            // key
-            keyBuf = piece;
-          }
-          else if (keyBuf !== null) {
-            // value
-            output[keyBuf] = piece;
-            keyBuf = null;
-          }
-          c++;
-        }
-      });
-      return output;
-    }
   }]);
