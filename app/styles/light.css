@@ -14,3 +14,15 @@ body.light-theme {
 .light-theme .nav-tabs>li {
   margin-bottom: -4px !important;
 }
+
+.light-theme .nav-container select {
+  color: #333;
+}
+
+.light-theme .nav-container select > option {
+  color: gray;
+  background-color: transparent;
+
+  margin: 10px;
+  padding: 10px;
+}

@@ -5,6 +5,12 @@ angular.module('gitSourceApp')
           '$scope', '$stateParams', '$state', 'gsConst', '$log',
   function($scope,   $stateParams,   $state,   gsConst,   $log) {
 
+    var DEFAULT_OPTIONS = {
+      theme: 'default',
+      edit: false,
+      result: true
+    };
+
     var _isEmptyObj = (function () {
       var emptyObj = {};
       return function (obj) {
@@ -20,7 +26,12 @@ angular.module('gitSourceApp')
 
         var options = angular.copy(params);
         delete options.sourcePath;
-        $scope.options = options;
+
+        $scope.options = {};
+        angular.forEach(options, function(value, key){
+          $scope.options[key] = (angular.isDefined(DEFAULT_OPTIONS[key]) && value === null) ?
+            DEFAULT_OPTIONS[key] : value;
+        });
 
         $scope.containerTheme = 'light';
         $scope.highlightTheme = 'default';

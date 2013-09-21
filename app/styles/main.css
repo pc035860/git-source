@@ -43,6 +43,24 @@
   margin-right: 2px;
 }
 
+.nav-container select {
+  max-height: 40px;
+  padding: 8px 3px;
+  border-radius: 5px;
+  min-width: 250px;
+
+  border: none;
+  background-color: transparent;
+
+  font-size: 18px;
+}
+.nav-container select:focus {
+  outline: none;
+}
+.nav-container select > option {
+  background-color: transparent;
+}
+
 .result-content {
   position: absolute;
   top: 42px;

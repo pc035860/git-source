@@ -7,12 +7,24 @@ body.dark-theme {
   box-shadow: 0 1px 5px rgba(0,0,0,.3)
 }
 
-.dark-theme .nav {
+.dark-theme .nav, .dark-theme .nav-container.file-select {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #2f2f2f));
   background: -webkit-linear-gradient(#4d4d4d,#2f2f2f);
   background: -moz-linear-gradient(#4d4d4d,#2f2f2f);
   background: -o-linear-gradient(#4d4d4d,#2f2f2f);
   background: linear-gradient(#4d4d4d,#2f2f2f);
+}
+
+.dark-theme .nav-container select {
+  color: #DDD;
+}
+
+.dark-theme .nav-container select > option {
+  color: #AAA;
+  background-color: #2f2f2f;
+
+  margin: 10px;
+  padding: 10px;
 }
 
 .dark-theme .nav-tabs {
