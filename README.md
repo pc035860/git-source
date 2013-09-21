@@ -2,10 +2,13 @@
 
 `git-source` shows off your github pages hosted source codes and examples.
 
+<img src="https://raw.github.com/pc035860/git-source/master/screenshots/tomorrow.png" alt="theme tomorrow" width="550">
+
 #### Features
 
 * Example view & single-file view
 * Support 31 syntax highlight themes via [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/)
+* "Edit" on [Plunker](http://plnkr.co)
 * Planty of options for better custimization
 * Support autogrow functionality with a tiny script plugin
 * Built with [AngularJS](http://angularjs.org)
@@ -15,7 +18,6 @@
 * [Basic](http://pc035860.github.io/git-source/)
 * [Embed](http://pc035860.github.io/git-source/embed_test.html)
 * [Live on my `ng-noob` blog](http://ng-noob.tumblr.com)
-
 
 ## Getting started
 
