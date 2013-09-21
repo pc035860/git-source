@@ -21,11 +21,11 @@
 
 #### Setup your own `git-source`
 
-In order to retrieve source codes hosted in your github pages, you'll need to:
+In order to retrieve source codes hosted in your [GitHub Pages](http://pages.github.com/), you'll need to:
 
 1. Fork this repo
 2. Clone it to local
-3. [Make a push commit to inform github that you want to setup your `git-source` in github pages.](http://stackoverflow.com/questions/8587321/github-pages-in-forked-repo)
+3. [Make a push commit to inform github that you want to setup your `git-source` in GitHub Pages.](http://stackoverflow.com/questions/8587321/github-pages-in-forked-repo)
 
 If you got it right, you'll have your version of `git-source` available at [http://{USERNAME}.github.io/git-source/](http://{USERNAME}.github.io/git-source/).
 
@@ -34,7 +34,7 @@ And you're good to go!!
 
 #### Host your examples
 
-To host an example repo in github pages, here is an example available at [https://github.com/pc035860/ng-noob.tumblr.com](https://github.com/pc035860/ng-noob.tumblr.com).
+To host an example repo in [GitHub Pages](http://pages.github.com/), here is an example available at [https://github.com/pc035860/ng-noob.tumblr.com](https://github.com/pc035860/ng-noob.tumblr.com).
 
 #### Embed with `<iframe>`
 
