@@ -2,8 +2,8 @@
 
 angular.module('gitSourceApp')
   .directive('gitSource', [
-           'gitSourceData', 'openPlunker', '$q', '$log', 'sendAutogrowMsg', '$timeout',
-  function (gitSourceData,   openPlunker,   $q,   $log,   sendAutogrowMsg,   $timeout) {
+           'gitSourceData', 'openPlunker', '$q', '$log', 'sendAutogrowMsg', '$timeout', 'extToLang',
+  function (gitSourceData,   openPlunker,   $q,   $log,   sendAutogrowMsg,   $timeout,   extToLang) {
     return {
       restrict: 'EA',
       scope: {
@@ -73,10 +73,12 @@ angular.module('gitSourceApp')
             gitSourceData(newPath)
             .then(function (data) {
               angular.forEach(data.files, function (fileInfo, name) {
-                var obj = {
-                  name: name,
-                  content: fileInfo.content
-                };
+                var ext = name.substr(name.lastIndexOf('.') + 1),
+                    obj = {
+                      name: name,
+                      content: fileInfo.content,
+                      lang: extToLang(ext) || ''
+                    };
                 scope.files.push(obj);
                 scope.fileIndex[name] = obj;
               });

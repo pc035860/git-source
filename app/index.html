@@ -51,7 +51,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
     <script src="bower_components/ngSelect/ngSelect.min.js"></script>
-    <script src="bower_components/angular-highlightjs/angular-highlightjs.js"></script>
+    <script src="bower_components/angular-highlightjs/angular-highlightjs.min.js"></script>
     <script src="//pc035860.github.io/ui-router/build/angular-ui-router.min.js"></script>
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
@@ -62,6 +62,7 @@
         <script src="scripts/services/formPostData.js"></script>
         <script src="scripts/services/openPlunker.js"></script>
         <script src="scripts/services/sendAutogrowMsg.js"></script>
+        <script src="scripts/services/extToLang.js"></script>
         <script src="scripts/directives/gitSource.js"></script>
         <!-- endbuild -->
 
@@ -105,6 +106,7 @@
               <div ng-if="file.name == model.currentFilename"
                    hljs
                    source="file.content"
+                   language="{{ file.lang }}"
                    onhighlight="onHighlight()"></div>
             </div>
             <div class="result-content" ng-show="RESULT_FILE_NAME == model.currentFilename">
