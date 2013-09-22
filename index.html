@@ -45,10 +45,10 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
     <script src="bower_components/ngSelect/ngSelect.min.js"></script>
-    <script src="bower_components/angular-highlightjs/angular-highlightjs.js"></script>
+    <script src="bower_components/angular-highlightjs/angular-highlightjs.min.js"></script>
     <script src="//pc035860.github.io/ui-router/build/angular-ui-router.min.js"></script>
 
-        <script src="scripts/a39234ff.scripts.js"></script>
+        <script src="scripts/27b5b221.scripts.js"></script>
 
     <script type="text/ng-template" id="git-source-template.html">
     <div>
@@ -90,6 +90,7 @@
               <div ng-if="file.name == model.currentFilename"
                    hljs
                    source="file.content"
+                   language="{{ file.lang }}"
                    onhighlight="onHighlight()"></div>
             </div>
             <div class="result-content" ng-show="RESULT_FILE_NAME == model.currentFilename">
