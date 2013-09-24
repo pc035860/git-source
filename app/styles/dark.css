@@ -57,3 +57,7 @@ body.dark-theme {
   border: none;
   background-color: transparent;
 }
+
+.dark-theme .popout {
+  color: #DDD;
+}
