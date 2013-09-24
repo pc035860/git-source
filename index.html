@@ -12,7 +12,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="bower_components/bootstrap-sass/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles/247cd640.main.css">
+        <link rel="stylesheet" href="styles/90a38068.main.css">
 </head>
   <body ng-controller="MainCtrl" ng-class="containerTheme + '-theme'">
     <!--[if lt IE 7]>
@@ -46,9 +46,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
     <script src="bower_components/ngSelect/ngSelect.min.js"></script>
     <script src="bower_components/angular-highlightjs/angular-highlightjs.min.js"></script>
+    <script src="bower_components/ngstorage/ngStorage.js"></script>
     <script src="//pc035860.github.io/ui-router/build/angular-ui-router.min.js"></script>
 
-        <script src="scripts/27b5b221.scripts.js"></script>
+        <script src="scripts/d51f28c3.scripts.js"></script>
 
     <script type="text/ng-template" id="git-source-template.html">
     <div>
@@ -66,8 +67,14 @@
             <a href="" class="btn btn-success edit-on-plunker pull-right" target="_blank" ng-click="editOnPlunker()"
                ng-if="config.edit">&nbsp; Edit &nbsp;</a>
             <a href="" class="btn btn-primary view-result pull-right"
-               ng-if="config.result"
+               ng-if="config.result && !$localStorage.popout"
                ng-select-option="{{ RESULT_FILE_NAME }}">Result</a>
+            <a href="" class="btn btn-primary view-result pull-right"
+               ng-if="config.result && $localStorage.popout"
+               ng-click="popoutResult()">Result</a>
+            <label class="popout" for="popout-cb" ng-if="config.result">
+              <input id="popout-cb" type="checkbox" ng-model="$localStorage.popout"> popout
+            </label>
           </div>
           <select ng-show="config.fileselect" ng-model="model.currentFilename" ng-options="file.name as file.name for file in files"></select>
           <ul ng-show="!config.fileselect" class="nav nav-tabs">
