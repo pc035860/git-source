@@ -43,6 +43,28 @@
   margin-right: 2px;
 }
 
+.popout {
+  float: right;
+  display: inline-block;
+
+  line-height: 38px;
+  margin-right: 5px;
+
+  font-weight: normal;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.popout > input {
+  position: relative;
+  top: -2px;
+  vertical-align: middle;
+}
+
 .nav-container select {
   max-height: 40px;
   padding: 8px 3px;

@@ -2,8 +2,8 @@
 
 angular.module('gitSourceApp')
   .directive('gitSource', [
-           'gitSourceData', 'openPlunker', '$q', '$log', 'sendAutogrowMsg', '$timeout', 'extToLang',
-  function (gitSourceData,   openPlunker,   $q,   $log,   sendAutogrowMsg,   $timeout,   extToLang) {
+           'gitSourceData', 'openPlunker', '$q', '$log', 'sendAutogrowMsg', '$timeout', 'extToLang', '$localStorage', 'popoutWindow',
+  function (gitSourceData,   openPlunker,   $q,   $log,   sendAutogrowMsg,   $timeout,   extToLang,   $localStorage,   popoutWindow) {
     return {
       restrict: 'EA',
       scope: {
@@ -19,6 +19,8 @@ angular.module('gitSourceApp')
             // first highlight flag
             _highlighted = false;
 
+        scope.$localStorage = $localStorage;
+
         scope.RESULT_FILE_NAME = RESULT_FILE_NAME;
 
         scope.fileIndex = null;
@@ -27,6 +29,10 @@ angular.module('gitSourceApp')
         scope.model = {
           currentFilename: null,
           specifiedFileContent: null
+        };
+
+        scope.popoutResult = function () {
+          popoutWindow(scope.resultPath);
         };
 
         scope.editOnPlunker = function () {
@@ -43,8 +49,14 @@ angular.module('gitSourceApp')
           }
         };
 
+        scope.$watch('$localStorage.popout', function (val) {
+          if (val && scope.model.currentFilename === RESULT_FILE_NAME) {
+            scope.popoutResult();
+          }
+        });
+
         scope.$watch('model.currentFilename', function (name) {
-          if (name == RESULT_FILE_NAME && _config.autogrow) {
+          if (name === RESULT_FILE_NAME && _config.autogrow) {
             $timeout(function () {
               sendAutogrowMsg(_config.autogrow);
             });

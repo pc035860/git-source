@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('gitSourceApp', ['ngSelect', 'hljs', 'ui.router'])
+angular.module('gitSourceApp', ['ngSelect', 'hljs', 'ui.router', 'ngStorage'])
 
   .constant('gsConst', {
     THEME_MAP: {
