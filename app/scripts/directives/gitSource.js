@@ -28,7 +28,8 @@ angular.module('gitSourceApp')
 
         scope.model = {
           currentFilename: null,
-          specifiedFileContent: null
+          specifiedFileContent: null,
+          focused: false
         };
 
         scope.popoutResult = function () {
@@ -50,7 +51,7 @@ angular.module('gitSourceApp')
         };
 
         scope.$watch('$localStorage.popout', function (val) {
-          if (val && scope.model.currentFilename === RESULT_FILE_NAME) {
+          if (val && scope.model.currentFilename === RESULT_FILE_NAME && scope.model.focused) {
             scope.popoutResult();
           }
         });
