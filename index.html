@@ -49,7 +49,7 @@
     <script src="bower_components/ngstorage/ngStorage.js"></script>
     <script src="//pc035860.github.io/ui-router/build/angular-ui-router.min.js"></script>
 
-        <script src="scripts/d51f28c3.scripts.js"></script>
+        <script src="scripts/6ee4ce2b.scripts.js"></script>
 
     <script type="text/ng-template" id="git-source-template.html">
     <div>
@@ -72,7 +72,10 @@
             <a href="" class="btn btn-primary view-result pull-right"
                ng-if="config.result && $localStorage.popout"
                ng-click="popoutResult()">Result</a>
-            <label class="popout" for="popout-cb" ng-if="config.result">
+            <label class="popout" for="popout-cb"
+                   ng-if="config.result"
+                   ng-mouseenter="model.focused = true"
+                   ng-mouseleave="model.focused = false">
               <input id="popout-cb" type="checkbox" ng-model="$localStorage.popout"> popout
             </label>
           </div>
