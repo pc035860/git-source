@@ -12,7 +12,8 @@ angular.module('gitSourceApp')
       },
       templateUrl: 'git-source-template.html',
       link: function(scope, iElm, iAttrs) {
-        var RESULT_FILE_NAME = '?RESULT?';
+        var RESULT_FILE_NAME = '?RESULT?',
+            INIT_RESULT_NAME = '!result';
 
         var _sourceData = null,
             _config = null,
@@ -96,7 +97,18 @@ angular.module('gitSourceApp')
                 scope.fileIndex[name] = obj;
               });
 
-              scope.model.currentFilename = scope.files[0].name;
+              var initFilename = scope.files[0].name;
+              if (_config && _config.init) {
+                if (_config.init === INIT_RESULT_NAME) {
+                  _config.init = RESULT_FILE_NAME;
+                }
+
+                if (_config.init === RESULT_FILE_NAME || _config.init in scope.fileIndex) {
+                  initFilename = _config.init;
+                }
+              }
+
+              scope.model.currentFilename = initFilename;
 
               // save plunk data
               _sourceData = data;

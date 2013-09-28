@@ -47,7 +47,7 @@ angular.module('gitSourceApp', ['ngSelect', 'hljs', 'ui.router', 'ngStorage'])
 
     $stateProvider
       .state('main', {
-        url: '/*sourcePath?theme&fontsize&file&line&lang&autogrow&edit&fileselect&result'
+        url: '/*sourcePath?theme&fontsize&file&line&lang&autogrow&edit&fileselect&result&init'
       });
 
   }]);
