@@ -177,3 +177,12 @@ Type: `number or string` Default: `null` View: `single-file`
 Type: `string` Default: `null` View: `single-file`
 
 Force the Highlight.js to highlight the code with specified language.
+
+
+#### init
+
+Type: `string` Default: `null` View: `example`
+
+The first file should be displayed after example initialization.
+
+`Result` can be set with special name `!result`.
